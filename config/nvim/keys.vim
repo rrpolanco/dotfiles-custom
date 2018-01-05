@@ -15,3 +15,8 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
+
+" Fzf.vim Mappings
+nmap ; :Buffers<CR>
+nmap <Leader>t :Files<CR>
+nmap <Leader>r :Tags<CR>
