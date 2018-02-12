@@ -74,7 +74,8 @@ Plug 'tpope/vim-unimpaired'
 
 " Completion & Snippets
 Plug 'Shougo/deoplete.nvim', { 'do': function('DoRemotePluginsUpdate') }
-Plug 'docwhat/deoplete-better-length-matcher.nvim'
+" This plugin has a bug in it, disabling
+"Plug 'docwhat/deoplete-better-length-matcher.nvim'
 Plug 'Shougo/neco-vim'
 Plug 'Shougo/neco-syntax'
 Plug 'zchee/deoplete-go'
